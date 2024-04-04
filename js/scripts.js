@@ -47,13 +47,51 @@ let firstVariable = ' Hello World'
  console.log(a * a === d); // note: the answer is a simple arithmetic equation, not something "weird"
  console.log(48 == '48');
 
+
+ // Farm
+ let animal = 'pig'
+ 
+ 
+ if (animal === 'cow') {
+    console.log('moooooooo');
+    
+ } else {
+    console.log('hey! you no moooooo');
+ }
+
+ //Driver
+
+let userAge ;
+
+userAge = prompt("enter your age")
+
+if (userAge > 16) {
+
+       
+      console.log("Here are the keys!");
+    } else {
+      console.log("Sorry, you're too young");
+    }
+    
+   
+
  //Biggie Smalls
-let num = 100
+let num = 10
 
  if (num < 100) {
     console.log('lil number');
    
-} else if (num >= 100) {
+} else  {
     console.log('Big Dog');
+ }
+ 
+ // Monkey 
+ if (num < 5 ) {
+    console.log('lil number');
+   
+} else if (num > 10) {
+    console.log('Big Dog');
+ } else {
+    console.log("monkey");
  }
    

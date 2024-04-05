@@ -76,7 +76,7 @@ if (userAge > 16) {
    
 
  //Biggie Smalls
-let num = 10
+let num = 9
 
  if (num < 100) {
     console.log('lil number');
@@ -89,7 +89,7 @@ let num = 10
  if (num < 5 ) {
     console.log('lil number');
    
-} else if (num > 10) {
+} else if (num >= 10) {
     console.log('Big Dog');
  } else {
     console.log("monkey");

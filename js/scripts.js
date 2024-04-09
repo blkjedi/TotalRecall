@@ -61,17 +61,17 @@ let firstVariable = ' Hello World'
 
  //Driver
 
-let userAge ;
+// let userAge ;
 
-userAge = prompt("enter your age")
+// userAge = prompt("enter your age")
 
-if (userAge > 16) {
+// if (userAge > 16) {
 
        
-      console.log("Here are the keys!");
-    } else {
-      console.log("Sorry, you're too young");
-    }
+//       console.log("Here are the keys!");
+//     } else {
+//       console.log("Sorry, you're too young");
+//     }
     
    
 
@@ -94,4 +94,79 @@ let num = 9
  } else {
     console.log("monkey");
  }
+
+
+ for (let i = 0; i <= 10; i++) {
+   console.log(`i is : ${i}`);
+ }
+ 
+ for (let i = 10; i <= 400; i ++) {
+   console.log(`i is : ${i}`);
+ }
+ for (let i = 12; i <= 4000; i += 3) {
+   console.log(`i is : ${i}`);
+ }
+ 
+ let j = 1
+
+while (j <= 100) {
+  if (j % 2 === 0) {
+    console.log(`${j} is even`);
+    
+  } else {
+   //  console.log(`${j} is odd`);
+  }
+  j++;
+}
+
+for (let i = 5; i <= 100; i+=5) {
+   console.log(`I found a ${i}. High five!`);
+   
+   
+ }
+let n = 1
+
+ while (n <= 100) {
+
+   if (n % 5 === 0 && n % 3 === 0) {
+      console.log(`I found a ${n}. High five!, Three is a crowd!`);
+      
+   }
+   else if (n % 5 === 0) {
+      console.log(`I found a ${n}. High five!`);
+
+      
+   } else if (n % 3 === 0) {
+      console.log(`I found a ${n}. Three is a crowd!`); 
+      
+   } 
+
+   n++;
+   
+ }
+
+ let i,  bank_account = 0
+i = 1
+while (i<=10){
+  
+  if(i%1==0){
+   bank_account= bank_account + i
+  }
+
+  i++
+}
+console.log(`You have $ ${bank_account} in your bank account` );
+
+
+ let k,  bank_accountb = 0
+k = 1
+while (k<=100){
+  
+  if(k%1==0){
+   bank_accountb= bank_accountb + k * 2
+  }
+
+  k++
+}
+console.log(`You have $ ${bank_accountb} in your bank account` );
    

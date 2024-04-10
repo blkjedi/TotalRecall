@@ -170,3 +170,10 @@ while (k<=100){
 }
 console.log(`You have $ ${bank_accountb} in your bank account` );
    
+
+//? arrays 
+
+const quotes = ['life is like a box of chocolates', 'boats & ***s', ''];
+
+
+const randomThings = [1, 10, "Hello", true];

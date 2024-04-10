@@ -174,6 +174,73 @@ console.log(`You have $ ${bank_accountb} in your bank account` );
 //? arrays 
 
 const quotes = ['life is like a box of chocolates', 'boats & ***s', ''];
-
+console.log(quotes);
 
 const randomThings = [1, 10, "Hello", true];
+console.log(randomThings [0] );
+randomThings[2] = 'World'
+
+console.log(randomThings);
+
+
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+console.log(ourClass[2]);
+ourClass[4]= 'Octocat'
+const newClass = ourClass.splice(4,0,'Cloud City');
+
+console.log(ourClass);
+
+const myArray = [5, 10, 500, 20]
+
+myArray[0] = 'Bob Marley'
+myArray[3] = 'Rick James'
+
+console.log(myArray.reverse());
+
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "Per Scholas hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+console.log(`Kristyn is rocking that ${kristynsCloset[2]} today!`);
+
+const newItems = kristynsCloset.splice(6,0, 'RayBans');
+console.log(kristynsCloset);
+
+kristynsCloset[5] = 'stained knit hat'
+console.log(kristynsCloset);
+
+
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+console.log(thomsCloset);
+console.log(thomsCloset[0][0]);
+console.log(thomsCloset[1][1]);
+console.log(thomsCloset[2][2]);
+console.log(`That boy Tom out here looking fresh with the ${thomsCloset[0][0]}, the ${thomsCloset[1][1]} and the ${thomsCloset[2][2] }`);
+
+thomsCloset[1][2] = 'Footie Pajamas'
+console.log(thomsCloset);
